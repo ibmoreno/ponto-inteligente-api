@@ -5,7 +5,3 @@ install:
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
 - mvn test
-deploy:
-  provider: heroku
-  api_key: 76419510-6168-443e-ad69-a6d13b654aa8
-  app: afternoon-badlands-63421
